@@ -1,5 +1,6 @@
 # Online Shop
-A great learning project to further my learning on Django and Web development
+A project to further my Knowledge on Django and Web development
+
 
 
 #### Note
