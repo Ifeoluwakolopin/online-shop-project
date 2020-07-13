@@ -1,0 +1,25 @@
+#Editor directories
+.vscode/
+
+#Environment files
+.env
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+static
+
+
+#certfiles
+certfile.crt
+certfile.key
+
+#cached files
+__pycache__/
+*.py[cod]
