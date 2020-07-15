@@ -30,6 +30,7 @@ tornado = "==6.0.4"
 vine = "==1.3.0"
 wrapt = "==1.12.1"
 Pillow = "==7.1.2"
+braintree = "*"
 
 [requires]
 python_version = "3.8"
