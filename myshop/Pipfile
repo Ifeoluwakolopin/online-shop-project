@@ -29,8 +29,9 @@ toml = "==0.10.1"
 tornado = "==6.0.4"
 vine = "==1.3.0"
 wrapt = "==1.12.1"
-Pillow = "==7.1.2"
+Pillow = "*"
 braintree = "*"
+weasyprint = "*"
 
 [requires]
 python_version = "3.8"
