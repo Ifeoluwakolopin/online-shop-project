@@ -32,6 +32,7 @@ wrapt = "==1.12.1"
 Pillow = "*"
 braintree = "*"
 weasyprint = "*"
+django-rosetta = "*"
 
 [requires]
 python_version = "3.8"
