@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4aa68e7cd171a3610e5b2b25b81b17dc9c77b5cda8ac401b9e3f0bc1a146b7d3"
+            "sha256": "69c06b537449afa9c1a87e907a4852ba6ae1a92c959f4d159062b6626d9a80b9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -149,11 +149,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:169e2e7b4839a7910b393eec127fd7cbae62e80fa55f89c6510426abf673fe5f",
-                "sha256:c6c0462b8b361f8691171af1fb87eceb4442da28477e12200c40420176206ba7"
+                "sha256:c348b3ddc452bf4b62361f0752f71a339140c777ebea3cdaaaa8fdb7f417a862",
+                "sha256:f8393103e15ec2d2d313ccbb95a3f1da092f9f58d74ac1c61ca2ac0436ae1eac"
             ],
             "index": "pypi",
-            "version": "==3.1.6"
+            "version": "==3.1.8"
         },
         "django-rosetta": {
             "hashes": [
@@ -292,10 +292,10 @@
         },
         "polib": {
             "hashes": [
-                "sha256:93b730477c16380c9a96726c54016822ff81acfa553977fdd131f2b90ba858d7",
-                "sha256:fad87d13696127ffb27ea0882d6182f1a9cf8a5e2b37a587751166c51e5a332a"
+                "sha256:d3ee85e0c6788f789353416b1612c6c92d75fe6ccfac0029711974d6abd0f86d",
+                "sha256:e02c355ae5e054912e3b0d16febc56510eff7e49d60bf22aecb463bd2f2a2dfa"
             ],
-            "version": "==1.1.0"
+            "version": "==1.1.1"
         },
         "prometheus-client": {
             "hashes": [
