@@ -8,12 +8,12 @@ from coupons.models import Coupon
 
 
 class Order(models.Model):
-    first_name = models.CharField(max_length=50)
-    last_name = models.CharField(max_length=50)
-    email = models.EmailField()
-    address = models.CharField(max_length=250)
-    postal_code = models.CharField(max_length=20)
-    city = models.CharField(max_length=100)
+    first_name = models.CharField(max_length=50, verbose_name='first name')
+    last_name = models.CharField(max_length=50, verbose_name='last name')
+    email = models.EmailField(verbose_name='e-mail')
+    address = models.CharField(max_length=250, verbose_name='address')
+    postal_code = models.CharField(max_length=20, verbose_name='postal_code')
+    city = models.CharField(max_length=100, verbose_name='city')
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     paid = models.BooleanField(default=False)
