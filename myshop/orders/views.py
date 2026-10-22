@@ -9,6 +9,7 @@ from .models import Order
 from django.conf import settings
 from django.http import HttpResponse
 from django.template.loader import render_to_string
+import os
 import weasyprint
 
 
@@ -58,6 +59,6 @@ def admin_order_pdf(request, order_id):
     response['Content-Disposition'] = f"filename=order_{order_id}.pdf"
     weasyprint.HTML(string=html).write_pdf(response,
         stylesheets=[weasyprint.CSS(
-            settings.STATIC_ROOT + 'css/pdf.css'
+            os.path.join(settings.STATIC_ROOT, 'css', 'pdf.css')
         )])
     return response
